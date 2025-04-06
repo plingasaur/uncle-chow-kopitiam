@@ -52,9 +52,9 @@ footer {
 
 .kopitiam-nav {
   background-image: url("images/kopitiam-tile-pattern.png");
-  background-size: 100px auto; 
+  background-size: 100px auto;
   background-repeat: repeat;
-  background-color: red; /* temp for testing */
+  background-color: red;
   display: flex;
   justify-content: center;
   gap: 2rem;
