@@ -16,3 +16,7 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.logo-container {
+  text-align: center;
+  margin-top: 30px; /* adjust if you want more space above */
+}
