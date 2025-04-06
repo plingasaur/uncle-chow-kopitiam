@@ -7,8 +7,14 @@ html, body {
   height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 main {
-  min-height: 70vh;
+  flex: 1; /* this makes the main section fill space between header and footer */
   background-color: #FAF1E4;
 }
 
