@@ -51,7 +51,7 @@ footer {
 }
 
 .kopitiam-nav {
-  background-color: red;
+  background-color: red !important;
   width: 100%;
   display: flex;
   justify-content: center;
