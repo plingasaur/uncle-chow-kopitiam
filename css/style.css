@@ -7,12 +7,12 @@ body {
   padding: 0;
 }
 header {
-  background-color: #AABBA4;
+  background-color: transparent;
   padding: 2rem;
   text-align: center;
 }
 footer {
-  background-color: #D4AF37;
+  background-color: transparent;
   text-align: center;
   padding: 1rem;
 }
