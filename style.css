@@ -5,36 +5,32 @@ body {
   color: #4E3524;
 }
 
-.sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #AABBA4;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+header {
+  background-color: transparent;
+  padding: 1rem 2rem;
 }
 
-header {
-  text-align: center;
-  padding: 1.5rem 1rem 1rem;
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
-  max-width: 200px;
-  margin-bottom: 0.5rem;
-}
-
-.tagline {
-  font-weight: 500;
-  font-size: 1.2rem;
-  margin: 0.5rem 0;
+  max-width: 180px;
 }
 
 .navbar {
-  margin-top: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #FAF1E4;
+  padding: 1rem 0;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar a {
@@ -45,7 +41,17 @@ header {
 }
 
 .navbar a:hover {
-  color: #D4AF37;
+  color: #AABBA4;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
 }
 
 .section {
@@ -54,8 +60,8 @@ header {
 }
 
 footer {
-  background-color: #F2CB6C;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  background-color: transparent;
   font-size: 0.9rem;
 }
