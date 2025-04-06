@@ -51,7 +51,7 @@ footer {
 }
 
 .kopitiam-nav {
-  background-color: #FAF1E4;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +59,7 @@ footer {
   padding: 1rem 0;
   border-top: 1px solid #4E3524;
   border-bottom: 1px solid #4E3524;
+  background-color: #FAF1E4;
 }
 
 .kopitiam-nav a {
