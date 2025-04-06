@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  flex: 1; /* this makes the main section fill space between header and footer */
+  flex: 1; /
   background-color: #FAF1E4;
 }
 
