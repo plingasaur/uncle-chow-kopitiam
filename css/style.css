@@ -50,7 +50,7 @@ footer {
   padding: 1rem;
 }
 
-kopitiam-nav {
+.kopitiam-nav {
   background-color: #FAF1E4;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ kopitiam-nav {
   border-bottom: 1px solid #4E3524;
 }
 
-kopitiam-nav a {
+.kopitiam-nav a {
   color: #4E3524;
   text-decoration: none;
   font-weight: bold;
