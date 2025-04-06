@@ -54,6 +54,7 @@ footer {
   background-image: url("images/kopitiam-tile-pattern.png");
   background-size: 100px auto; 
   background-repeat: repeat;
+  background-color: red; /* temp for testing */
   display: flex;
   justify-content: center;
   gap: 2rem;
