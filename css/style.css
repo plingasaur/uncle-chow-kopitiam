@@ -1,9 +1,9 @@
 html, body {
+  margin: 0;
+  padding: 0;
   background-color: #FAF1E4;
   color: #4E3524;
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
   height: 100%;
 }
 
@@ -13,15 +13,30 @@ body {
   min-height: 100vh;
 }
 
-main {
-  flex: 1; 
-  background-color: #FAF1E4;
-}
-
 header {
   background-color: transparent;
-  padding: 2rem;
   text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 300px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main {
+  flex: 1;
+  background-color: #FAF1E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
 }
 
 footer {
