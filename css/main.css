@@ -33,10 +33,14 @@ header {
 
 .kopitiam-nav {
   background-color: #FAF1E4;
-  text-align: center;
   padding: 1rem 0;
   border-top: 1px solid #4E3524;
   border-bottom: 1px solid #4E3524;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .kopitiam-nav a {
