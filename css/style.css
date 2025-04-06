@@ -50,7 +50,7 @@ footer {
   padding: 1rem;
 }
 
-.kopitiam-nav {
+kopitiam-nav {
   background-image: url("images/kopitiam-tile-pattern.png");
   background-size: 100px auto; 
   background-repeat: repeat;
@@ -60,7 +60,7 @@ footer {
   padding: 1rem;
 }
 
-.kopitiam-nav a {
+kopitiam-nav a {
   color: #4E3524;
   text-decoration: none;
   font-weight: bold;
