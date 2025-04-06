@@ -32,18 +32,16 @@ header {
 }
 
 .kopitiam-nav {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  background-color: #FAF1E4;
+  text-align: center;
   padding: 1rem 0;
   border-top: 1px solid #4E3524;
   border-bottom: 1px solid #4E3524;
-  background-color: #FAF1E4;
 }
 
 .kopitiam-nav a {
+  display: inline-block;
+  margin: 0 1rem;
   color: #4E3524;
   text-decoration: none;
   font-weight: bold;
