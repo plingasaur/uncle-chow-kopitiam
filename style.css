@@ -86,56 +86,39 @@ body {
   line-height: 1.5;
 }
 
-.seamless-carousel-wrapper {
+.carousel-wrapper {
   width: 320px;
-  height: 480px;
+  height: 400px;
   overflow: hidden;
-  margin: 0 auto;
-  background-color: #FAF1E4; /* or match your media bg */
   border-radius: 0px;
-  position: relative;
 }
 
-.seamless-carousel {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-track {
+.carousel {
   display: flex;
-  width: calc(320px * 6); /* 6 items: 3 original + 3 duplicate */
-  animation: scrollLoop 36s linear infinite;
+  width: 300%;
+  height: 100%; /* 3 items */
+  animation: slideCarousel 36s infinite;
 }
 
-.item {
-  flex: 0 0 320px;
-  height: 480px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: none;
-  margin: 0;
-  padding: 0;
+.carousel-item {
+  flex: 0 0 100%;
+  transition: transform 0s ease-in-out;
 }
 
-.item img,
-.item video {
+.carousel-item img,
+.carousel-item video {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  display: block;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
-@keyframes scrollLoop {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-960px); /* scroll full set width */
-  }
+/* Animation Keyframes */
+@keyframes slideCarousel {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
 }
 
 main {
