@@ -96,7 +96,7 @@ body {
 .slider {
   display: flex;
   flex-direction: column;
-  animation: slideVertical 12s linear infinite;
+  animation: slideHorizontal 12s linear infinite;
 }
 
 .slide {
