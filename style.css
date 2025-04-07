@@ -90,7 +90,7 @@ body {
   width: 320px;
   height: 400px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .carousel {
@@ -102,7 +102,7 @@ body {
 
 .carousel-item {
   flex: 0 0 100%;
-  transition: transform 3s ease-in-out;
+  transition: transform 0s ease-in-out;
 }
 
 .carousel-item img,
@@ -110,7 +110,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 1px;
+  border-radius: 0px;
 }
 
 /* Animation Keyframes */
