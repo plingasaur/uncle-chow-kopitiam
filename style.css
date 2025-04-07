@@ -112,7 +112,7 @@ body {
   object-fit: cover;
 }
 
-@keyframes slideVertical {
+@keyframes slideHorizontal {
   0% { transform: translateY(0); }
   33% { transform: translateY(-100%); }
   66% { transform: translateY(-200%); }
