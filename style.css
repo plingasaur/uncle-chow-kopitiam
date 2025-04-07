@@ -20,8 +20,12 @@ header {
 }
 
 .tagline {
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-family: 'Parisienne', cursive;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: #2C4A3A;
 }
 
 .kopitiam-nav {
@@ -32,16 +36,17 @@ header {
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
-  border-top: 1px solid #2C4A3A;
-  border-bottom: 1px solid #2C4A3A;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
 }
 
 .kopitiam-nav a {
   color: #2C4A3A;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
 }
 
 .hero img {
