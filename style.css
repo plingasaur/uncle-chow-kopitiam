@@ -186,3 +186,24 @@ footer {
   pointer-events: none;
   mix-blend-mode: multiply;
 }
+
+.vertical-slider {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.vs-slide {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vs-slide img,
+.vs-slide video {
+  max-height: 100vh;
+  width: auto;
+  object-fit: contain;
+}
