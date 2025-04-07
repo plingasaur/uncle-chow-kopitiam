@@ -134,3 +134,33 @@ footer {
   max-height: 500px;
   object-fit: cover;
 }
+
+.slider-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  overflow: hidden;
+  animation: slide-left 12s linear infinite;
+}
+
+.slide {
+  margin-bottom: 1rem;
+}
+
+.slide img,
+.slide video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-10%); }
+}
