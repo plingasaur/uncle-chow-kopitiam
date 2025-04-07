@@ -14,31 +14,15 @@ body {
   min-height: 100vh;
 }
 
-header.fade-header {
-  background-color: transparent;
+.fade-header {
   text-align: center;
-  padding: 1rem 0.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0.5rem;
   transition: opacity 0.5s ease;
 }
 
 .logo {
-  width: 300px;
-  max-width: 100%;
-}
-
-.tagline-block {
-  padding: 0.5rem 0;
-}
-
-.tagline {
-  font-family: 'Parisienne', cursive;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  text-transform: lowercase;
-  color: #4E3524;
+  width: 450px;
+  max-width: 90%;
 }
 
 .kopitiam-nav {
@@ -48,7 +32,7 @@ header.fade-header {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 0.8rem;
+  padding: 0.5rem 1rem;
   z-index: 1000;
 }
 
@@ -58,6 +42,24 @@ header.fade-header {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tagline-block {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.tagline {
+  font-family: 'Parisienne', cursive;
+  font-size: 1.8rem;
+  color: #4E3524;
   text-transform: lowercase;
 }
 

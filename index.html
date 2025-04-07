@@ -21,13 +21,17 @@
     <a href="#">Contact Us</a>
   </nav>
 
-  <header class="fade-header tagline-block">
+  <section class="hero">
+    <img src="images/hero.png" alt="Nasi Lemak" class="hero-image">
+  </section>
+
+  <div class="tagline-block">
     <div class="tagline">a legacy brewed with heart ♥</div>
-  </header>
+  </div>
 
   <section class="slider">
     <div class="slide">
-      <img src="images/hero.png" alt="Nasi Lemak">
+      <img src="images/nasilemakuck.png" alt="Nasi Lemak UCK">
     </div>
     <div class="slide">
       <video src="videos/nasi_lemak_1.mp4" autoplay muted loop></video>
@@ -52,7 +56,6 @@
   </footer>
 
   <script>
-    // Fade out logo and tagline on scroll
     window.addEventListener("scroll", function () {
       const headers = document.querySelectorAll(".fade-header");
       const scrollY = window.scrollY;
