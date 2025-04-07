@@ -97,7 +97,7 @@ body {
   display: flex;
   width: 300%;
   height: 100%; /* 3 items */
-  animation: slideCarousel 12s infinite;
+  animation: slideCarousel 36s infinite;
 }
 
 .carousel-item {
