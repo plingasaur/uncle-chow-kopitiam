@@ -164,3 +164,25 @@ footer {
   0% { transform: translateX(0); }
   100% { transform: translateX(-10%); }
 }
+
+.media-stack {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.media-stack img {
+  width: 100%;
+  display: block;
+}
+
+.media-stack video.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.4;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
