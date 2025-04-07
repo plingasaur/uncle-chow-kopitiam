@@ -8,16 +8,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="fade-header">
     <img src="images/logo.png" alt="Uncle Chow Kopitiam logo" class="logo">
-    <div class="tagline">a legacy brewed with heart</div>
+    <div class="tagline">a legacy brewed with heart <3</div>
   </header>
 
   <nav class="kopitiam-nav">
     <a href="#">Home</a>
     <a href="#">Menu</a>
+    <a href="#">Products</a>
     <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="#">Contact Us</a>
   </nav>
 
   <section class="hero">
@@ -33,5 +34,16 @@
   <footer>
     <p>© 2025 Uncle Chow Kopitiam / plingasaur</p>
   </footer>
+
+  <script>
+    // Fade out logo and tagline on scroll
+    window.addEventListener("scroll", function () {
+      const header = document.querySelector(".fade-header");
+      const scrollY = window.scrollY;
+      const maxFade = 200;
+      const opacity = Math.max(0, 1 - scrollY / maxFade);
+      header.style.opacity = opacity;
+    });
+  </script>
 </body>
 </html>

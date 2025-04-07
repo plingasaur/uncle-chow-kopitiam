@@ -8,20 +8,21 @@ html, body {
   height: 100%;
 }
 
-header {
+.fade-header {
   text-align: center;
   padding: 1rem;
+  transition: opacity 0.5s ease;
 }
 
 .logo {
-  width: 250px;
-  max-width: 80%;
+  width: 375px;
+  max-width: 90%;
   margin-bottom: 0.5rem;
 }
 
 .tagline {
   font-family: 'Parisienne', cursive;
-  font-size: 1.4rem;
+  font-size: 5.6rem;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: lowercase;
@@ -37,7 +38,6 @@ header {
   gap: 2rem;
   padding: 1rem;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
 }
 
 .kopitiam-nav a {
